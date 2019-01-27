@@ -1,0 +1,8 @@
+.vehicleCheckBox {
+	position: relative;
+}
+
+/deep/ p-checkbox {
+	position: absolute;
+    top: 24px;
+}

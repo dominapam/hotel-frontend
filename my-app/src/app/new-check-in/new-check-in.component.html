@@ -1,3 +1,28 @@
-<p>
-  new-check-in works!
-</p>
+<p-panel header="Novo check-in">
+	<div class="ui-g ui-fluid">
+		<div class="ui-g-12 ui-md-6">
+			<div>Data/hora de entrada</div>
+			<input type="text" pInputText placeholder="DD/MM/AAAA HH:MM">
+		</div>
+		<div class="ui-g-12 ui-md-6">
+			<div>Data/hora de saída</div>
+			<input type="text" pInputText placeholder="DD/MM/AAAA HH:MM">
+		</div>
+	</div>
+	<div class="ui-g ui-fluid">
+		<div class="ui-g-8 ui-md-6">
+			<div>Pessoa</div>
+			<input type="text" pInputText placeholder="Nome completo">
+		</div>
+		<div class="ui-g-4 ui-md-6">
+			<div class="vehicleCheckBox">
+				<p-checkbox label="Possui veículo" binary="true"></p-checkbox>
+			</div>
+		</div>
+	</div>
+	<div class="ui-g ui-fluid">
+		<div class="ui-g-12">
+			<p-button label="Salvar" (onClick)="saveCheckin($event)"></p-button>
+		</div>
+	</div>
+</p-panel>

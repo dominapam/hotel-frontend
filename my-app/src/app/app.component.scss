@@ -1,0 +1,13 @@
+@import '../styles.scss';
+
+.mainHeader {
+    background-color: $green-color;
+    color: $white-color;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.apps {
+	margin: 20px;
+}
